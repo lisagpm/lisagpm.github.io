@@ -1,0 +1,444 @@
+/* style sheet created by: Lisa PeytonMcNeill on 4-26-2020 */
+
+
+body {
+    background-color: wheat;
+     }
+
+/* style to create fluid images */
+img {
+    max-width: 100%;
+    }
+
+/* style for mobile layout */
+
+
+/* style for container */
+#container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+/* style for header */
+header {
+    text-align: center;
+       }
+/* main h2 text */
+main h2 {
+    text-align:center;
+    }
+
+/* Add style to navigational text */
+nav {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    }
+
+/* style for list */
+nav ul {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    }
+
+/* style changes for link box */
+nav li {
+    background-color:saddlebrown;
+    border-radius: 2em;
+    list-style-type: none; /*gets rid of bullets */
+    margin: 0.3em;
+    padding: 0.4em;
+    }
+
+/* style changes for link text - removes underlines */
+nav li a {
+    color: wheat;
+    text-decoration: none;
+    }
+
+/* style display for mobile */
+.mobile {
+    display: inline; 
+    }
+
+/* style hides desktop class */
+.desktop {
+    display: none; 
+    }
+
+/* style for main */
+main {
+    display: block;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1em;
+    margin-top:0.5em;
+    padding: 1em;
+    border-radius: 2em 0 2em 0;
+    background-color: lightgoldenrodyellow;
+    opacity: 0.85; 
+    
+}
+ 
+/* style for footer */
+footer {
+    font-size: .70em;
+    text-align: center;
+    margin-top: 2em;
+    color:black;
+    } 
+
+/* history text */
+.history {
+    float: left;
+    padding-right: 20px;
+    }
+
+
+/* style hides the tablet class */
+.tablet {
+    display: none;
+    }
+
+ul {
+    margin-bottom: 50px;
+    list-style-position: inside;
+    
+   }
+
+/* History */
+.history {
+    display: none;
+    }
+
+
+
+
+/* style rules for form */
+input, select, texarea {
+    display: block;
+    margin-bottom: 1em;    
+    }
+
+/* style for labels */
+label {
+    display: block;
+    } 
+
+/* style for list in form */
+form ul {
+    list-style-type: none;
+    }
+
+/* style for checkboxes */
+.chkbx {
+    display: inline-block;
+    }
+
+/* style video */
+.video {
+    padding: 0em;
+    text-align: center;
+    }
+
+/* style for video element */
+video {
+    border: 0.5em ridge white;
+    height: auto;
+    max-width: 100%;
+    
+    }
+
+
+/* Media query tablet */
+
+@media only screen and (min-width:660px) {
+
+/*style to make links horizontal */
+nav li {
+    display: inline;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 18%;
+    white-space: nowrap;
+    
+    
+    } 
+/* sets properties for main element */
+    main {
+        clear: left;
+        margin-top: 4em;
+        overflow: auto;
+    }
+    
+/* main article - create borders around images */
+    main article img {
+        border: solid 0.1em;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+/* style for article content */
+    main article p {
+        color: black;
+        margin-top: 2%;
+        padding: 1%;
+        text-align: left;
+           
+    }
+
+    
+/*style to hide mobile */
+    .mobile {
+        display: none;
+    }
+    
+/*style to display desktop class */
+    .desktop {
+        display: inline;
+    }
+
+/* style for history */
+    .history {
+        display:inline;
+        float:left;
+        margin-right: 1.5em;
+    }
+    
+/* style specifies a display list and bottom margin */
+    .items {
+        display:block;
+        list-style-position: inside;
+        margin-bottom: 6em;
+        
+    }
+    
+/* style for tablet display */
+    .tablet {
+        display:block;
+    }
+    
+/*formatting contact */
+    .contact {
+        padding: 0;
+        text-decoration: underline;
+    }
+    
+/*figure formatting */
+    figure img {
+        background-color: wheat;
+        display:inline;
+        height: 15em;
+        width: 22%;
+        margin: 0.5%;
+        padding: 0.5%;
+        opacity: 0.7;
+    }
+    
+/*figure formatting */
+    figure img:hover {
+        opacity: 1;
+    }
+   
+/* style for text of dog types */
+    dt {
+        font-weight: bold;
+        margin-top: 0.7em;
+        
+    }
+    
+/* stylng for article */
+article {
+    background-color: wheat;
+    float: left;
+    margin:0.1%;
+    padding: 0.5%;
+    text-align: center;
+    width: 31%;
+    
+    
+    }
+    
+/* style label for tablet */
+    label {
+        float: left;
+        padding-right: 0.5em;
+        text-align: right;
+        width: 10em;
+    }
+    
+/* styles for buttons */
+    .btn {
+        margin-left: 15em;
+    }
+    
+/* style for table */
+    table {
+        background-color: lightgoldenrodyellow;
+        width: 85%;
+    }
+/* style for td elements */
+    td {
+        color: #944200;
+    }
+    
+
+    
+/* end tablet media query */
+    
+
+/* style for table */
+    table {
+        border: 0.1em solid black;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        
+        }
+/* styles for borders and padding */
+    th, td {
+        border: 0.1em solid black;
+        padding: 1em;
+        background-color: wheat;
+        }
+    
+/* style for th elements */
+    th {
+    background-color: #944200;
+    color: wheat;
+    }
+    
+/* syle for caption */
+    caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-bottom:0.5em;
+    }
+    
+  }
+
+/* aside styling */
+aside {
+    background-color: white;
+    border-radius: 0 5em 5em 5em;
+    box-shadow:1em 1em 1em #4C4F4D;
+    padding: 1.5em;
+    margin: 1em;
+    }
+
+/* main article h2 styling */
+main article h2 {
+    color: black;
+}
+
+/* main article h1 styling */
+main h1 {
+    color: black;
+    text-align: center;
+}
+
+
+/* article bullets */
+    main article ul {
+        list-style-type: none; /*gets rid of bullets */
+    }
+
+
+/* media query for desktop 830px */
+
+@media only screen and (min-width: 830px) {
+    
+/* width for container */
+    #container {
+         width: 80%;
+    }
+    
+/*specifies margin and padding for nav */
+    nav ul {
+        margin: 0;
+        padding-left: 0.50%;
+        padding-right: 0.50%;
+        }
+    
+/*more stylings for nav */
+    nav li {
+        border-radius: 0;
+        border-top: solid black;
+        border-bottom: solid black;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        width:20%;
+        }
+/*style for nav links */
+    
+    nav li a {
+        display: inline-block;
+        padding: 0.7em; 
+        }
+    
+/* style for pseudo-classes*/
+    nav li a:link {
+        color: wheat;
+    } 
+    
+    nav li a:visited {
+        color: wheat;
+    }    
+    
+    nav li a:hover {
+        color: white;
+        font-style:italic;
+    }
+    
+    
+    
+/* style for main element */
+    main {
+        border-style: none;
+        box-shadow: 0.5em 0.5em 0.5em #404040;
+        margin-bottom:  1em;
+        margin-top: 1em;
+        
+       }
+
+    /* main p */
+    main p {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        
+    }
+    
+/* style for table */
+    
+        
+       
+/* styles for borders and padding */
+    th, td {
+        border: 0.1em solid black;
+        padding: 1em;
+        background-color: #944200;
+        }
+    
+/* style for th elements */
+    th {
+    background-color: wheat;
+    color: #944200;
+    } 
+    
+    td {
+        color: wheat;
+    }
+
+    
+}
+
+
+
